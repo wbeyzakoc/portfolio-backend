@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "PcnVyl1hn2M=",
+  "success": true,
+  "projectFilePath": "/Users/beyzamacbook/Desktop/PortfolioAPI/PortfolioAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/beyzamacbook/.nuget/packages/microsoft.aspnetcore.openapi/10.0.9/microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "/Users/beyzamacbook/.nuget/packages/microsoft.extensions.http/10.0.9/microsoft.extensions.http.10.0.9.nupkg.sha512",
+    "/Users/beyzamacbook/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/beyzamacbook/.nuget/packages/resend/0.6.0/resend.0.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Http ayıklanmayacak. Bu paketi bağımlılıklarınızdan kaldırmayı düşünün, çünkü muhtemelen gereksizdir.",
+      "projectPath": "/Users/beyzamacbook/Desktop/PortfolioAPI/PortfolioAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/beyzamacbook/Desktop/PortfolioAPI/PortfolioAPI.csproj",
+      "libraryId": "Microsoft.Extensions.Http",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "'Microsoft.OpenApi' 2.0.0 paketinde önem derecesi yüksek olan bilinen bir https://github.com/advisories/GHSA-v5pm-xwqc-g5wc güvenlik açığı var",
+      "projectPath": "/Users/beyzamacbook/Desktop/PortfolioAPI/PortfolioAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/beyzamacbook/Desktop/PortfolioAPI/PortfolioAPI.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
